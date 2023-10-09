@@ -1,0 +1,12 @@
+{
+  "name": "sfmagpac",
+  "version": "1.0.0",
+  "description": "Salesforce Git package.xml generator.",
+  "main": "index.js",
+  "keywords": ["utility", "nodejs", "javascript", "toolkit", "git", "salesforce", "package", "xml"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas S. Nogueira (snlucas)",
+  "license": "GPL-3.0"
+}
