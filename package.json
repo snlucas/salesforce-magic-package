@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Salesforce Git package.xml generator.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snlucas/salesforce-magic-package"
+  },
   "keywords": [
     "utility",
     "nodejs",
@@ -16,12 +20,20 @@
   "scripts": {
     "test": "nyc mocha"
   },
-  "author": "Lucas S. Nogueira (snlucas)",
+  "author": {
+    "name": "Lucas S. Nogueira (snlucas)",
+    "email": "lucas.lambda.101@gmail.com",
+    "url": "https://snlucas.com"
+  },
   "license": "GPL-3.0",
+  "homepage": "https://github.com/snlucas/salesforce-magic-package",
   "devDependencies": {
     "mocha": "^10.2.0"
   },
   "dependencies": {
     "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
