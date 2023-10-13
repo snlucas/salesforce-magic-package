@@ -1,6 +1,6 @@
 {
   "name": "sfmagpac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Salesforce Git package.xml generator.",
   "main": "index.js",
   "repository": {
@@ -35,5 +35,8 @@
   },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "bin": {
+    "sfmagpac": "./index.js"
   }
 }
